@@ -6,6 +6,8 @@
 
 package calcu;
 
+import java.util.Vector;
+
 /**
  *
  * @author USUARIO
@@ -22,6 +24,20 @@ public class Calcu {
         res = binariaa(5,3,2);
         System.out.println(res);
     
+        int dato;
+        Vector<Integer> vector = new Vector<>(); //Diamonds are allowed in 7+
+        vector.add(42);
+        dato = vector.get(42);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 
     public Calcu() {
