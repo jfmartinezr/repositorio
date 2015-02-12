@@ -20,7 +20,7 @@ public class Calcu {
     public static void main(String[] args) {
         // TODO code application logic here
         float res;
-        System.out.println("Didite operacion");
+        System.out.println("Didite operación");
         res = binariaa(5,3,2);
         System.out.println(res);
     
