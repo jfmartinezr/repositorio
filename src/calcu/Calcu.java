@@ -6,6 +6,8 @@
 
 package calcu;
 
+import java.io.Console;
+import java.util.Scanner;
 import java.util.Vector;
 
 /**
@@ -20,8 +22,19 @@ public class Calcu {
     public static void main(String[] args) {
         // TODO code application logic here
         float res;
-        System.out.println("Didite operacion");
-        res = binariaa(5,3,2);
+        System.out.println("Didite operaciones");
+        Scanner sc = new Scanner(System.in);
+        String cadena = sc.nextLine();
+        
+        
+        //call ordenar cadena
+        int n1 = Integer.parseInt(cadena.substring(0,1));
+        int n2 = Integer.parseInt(cadena.substring(2,3));
+        int n3 = Integer.parseInt(cadena.substring(1,2));       
+        
+        
+        
+        res = binariaa(n1,n2,n3);
         System.out.println(res);
     
 //Arraylist<Int>    nombreArraylist = Array     
