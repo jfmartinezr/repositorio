@@ -22,7 +22,7 @@ public class Calcu {
     public static void main(String[] args) {
         // TODO code application logic here
         float res;
-        System.out.println("Didite operaciones");
+        System.out.println("Didite operas");
         Scanner sc = new Scanner(System.in);
         String cadena = sc.nextLine();
         
